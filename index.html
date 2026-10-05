@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Old School Computer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="logo" href="#top">Old<br>School<br>Computer</a>
+  <nav><a class="btn dark" href="#apply">Apply WL</a><a class="btn line" href="#art">Art</a></nav>
+</header>
+
+<section class="hero" id="top">
+  <div class="hero-text">
+    <h1>Old<br>School<br>Computer</h1>
+    <i class="dash"></i>
+    <p class="meta">Art collection<br>Digital objects</p>
+    <p class="meta">Same feeling<br>Different screens.</p>
+    <div class="cta"><a class="btn dark" href="#apply">Apply WL &rarr;</a><a class="btn line" href="#art">Art &darr;</a></div>
+  </div>
+  <img class="hero-img" src="images/1.jpg" alt="Blue old school computer">
+  <div class="scroll">Scroll down &darr;</div>
+</section>
+
+<section class="apply" id="apply">
+  <div class="apply-text">
+    <h2>Apply WL</h2><i class="dash"></i>
+    <p class="meta">Enter your details<br>to apply for the<br>whitelist.</p>
+  </div>
+  <div class="crt">
+    <form id="wl" class="term" novalidate autocomplete="off">
+      <div class="bar"><span>&#9635; WHITELIST APPLICATION.exe</span><span>_ &#9633; &#10005;</span></div>
+      <div class="task"><input type="checkbox" id="c1"><b>01</b><label for="c1">FOLLOW &#120143;</label><a class="go" id="goFollow" target="_blank" rel="noopener">FOLLOW &#8599;</a>
+        <input class="field" id="xuser" placeholder="@  Enter your X username (as reply)"></div>
+      <div class="task"><input type="checkbox" id="c2"><b>02</b><label for="c2">LIKE &amp; RT PINNED POST</label>
+        <div class="pair"><a class="go sq" id="goLike" target="_blank" rel="noopener">&#9829;<small>GO &#8599;</small></a><a class="go sq" id="goRt" target="_blank" rel="noopener">&#8635;<small>GO &#8599;</small></a></div></div>
+      <div class="task"><input type="checkbox" id="c3"><b>03</b><label for="c3">QT PINNED POST WITH<br>"Locked in with Old school computer"</label>
+        <input class="field" id="qt" placeholder="&#128279;  https://x.com/status..."></div>
+      <div class="task"><input type="checkbox" id="c4"><b>04</b><label for="c4">TAG 3 FRIENDS IN PINNED POST COMMENT</label>
+        <input class="field" id="tag" placeholder="&#128279;  https://x.com/status..."></div>
+      <div class="task"><input type="checkbox" id="c5"><b>05</b><label for="c5">EVM WALLET</label>
+        <input class="field" id="wallet" placeholder="0x..."></div>
+      <input type="text" id="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px">
+      <p id="msg" role="status"></p>
+      <button type="submit" id="submit">SUBMIT &rarr;</button>
+    </form>
+    <div class="crt-foot"><i></i><i></i><i></i><em></em></div>
+  </div>
+</section>
+
+<section class="art" id="art">
+  <div class="art-head">
+    <div><h2>Art</h2><i class="dash"></i><p class="meta">A collection<br>of old school<br>computers.</p></div>
+    <div class="pager"><span>001 &mdash; 008</span><button id="prev" aria-label="Previous">&lsaquo;</button><button id="next" aria-label="Next">&rsaquo;</button></div>
+  </div>
+  <div class="grid" id="grid"></div>
+</section>
+
+<footer><span>Old School Computer</span><span>Art Collection</span><span>02 / 02</span></footer>
+<script src="script.js"></script>
+</body>
+</html>
