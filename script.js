@@ -1,7 +1,7 @@
 // ====== CONFIG ======
 const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyWp1nLdV-HZFNYVYeHnqwfZ9DRzNwx53LDGbbCVjKFCz13dKSbzEcvuENLe0NW4uxb/exec";
-const X_PROFILE = "https://x.com/YOUR_HANDLE";
-const PINNED_POST = "https://x.com/YOUR_HANDLE/status/YOUR_POST_ID";
+const X_PROFILE = "https://x.com/oldschcomputer";
+const PINNED_POST = "https://x.com/oldschcomputer";
 // ====================
 
 const $ = id => document.getElementById(id);
